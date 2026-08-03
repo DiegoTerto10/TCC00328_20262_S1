@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.aulas.java.files;
+package uff.ic.lleme.ed.aulas.java.files;
 
 import java.io.BufferedWriter;
 import java.io.FileNotFoundException;
