@@ -1,4 +1,4 @@
-package uff.ic.lleme.ed.aulas.java.objects;
+package uff.ic.lleme.tcc00328.aulas.java.objects;
 
 public class Main {
 

@@ -1,4 +1,4 @@
-package uff.ic.lleme.ed.aulas.java.inheritance;
+package uff.ic.lleme.tcc00328.aulas.java.inheritance;
 
 public class User extends Person implements Printable {
 

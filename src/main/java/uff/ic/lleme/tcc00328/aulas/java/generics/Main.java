@@ -1,6 +1,6 @@
-package uff.ic.lleme.ed.aulas.java.generics;
+package uff.ic.lleme.tcc00328.aulas.java.generics;
 
-import uff.ic.lleme.ed.aulas.java.inheritance.User;
+import uff.ic.lleme.tcc00328.aulas.java.inheritance.User;
 
 public class Main {
 
