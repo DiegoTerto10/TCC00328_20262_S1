@@ -1,4 +1,4 @@
-# Estruturas de Dados 2025.2, [PPGC](https://www.ic.uff.br/pos-graduacao/) - [IC](http://www.ic.uff.br)/[UFF](http://www.uff.br)
+# Programação Orientada a Objetos turma S1 2026.2, [PPGC](https://www.ic.uff.br/pos-graduacao/) - [IC](http://www.ic.uff.br)/[UFF](http://www.uff.br)
 
 ## Links
 Turma 2025.2: [Frequência](https://docs.google.com/spreadsheets/d/e/2PACX-1vTJUFT93x9_u6zfRZRidSx6SRMwyP-3PZxL_xXbWbdPxRpZTTnjym_zKrZ-cyt4bJWe93AIGgGbsZbM/pubhtml), [Professor](https://www.ic.uff.br/blog/pessoas/luiz-andre-portes-paes-leme/).
