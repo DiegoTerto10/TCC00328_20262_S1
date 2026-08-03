@@ -1,7 +1,7 @@
 # Programação Orientada a Objetos [IC](http://www.ic.uff.br)/[UFF](http://www.uff.br)
 
 ## Links
-Turma 2026.2: [Google Sala de Aula](https://sites.google.com/ic.uff.br/lapaesleme/inicio/poo) [Frequência](https://docs.google.com/spreadsheets/d/1Igm-Xggg1Cp22WVYqqQ5axYlYhGXaYXIWcZmJ8cb-UA/edit?gid=4#gid=4), [Professor](https://www.ic.uff.br/blog/pessoas/luiz-andre-portes-paes-leme/).
+Turma 2026.2: [Google Sala de Aula](https://sites.google.com/ic.uff.br/lapaesleme/inicio/poo), [Frequência](https://docs.google.com/spreadsheets/d/1Igm-Xggg1Cp22WVYqqQ5axYlYhGXaYXIWcZmJ8cb-UA/edit?gid=4#gid=4), [Professor](https://www.ic.uff.br/blog/pessoas/luiz-andre-portes-paes-leme/).
 
 ## 1. Introdução a Java
 
