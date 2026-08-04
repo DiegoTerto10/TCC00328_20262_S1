@@ -1,7 +1,7 @@
-# Programa&ccedil;&atilde;o Orientada a Objetos, Turma S1 2026.2, [IC](http://www.ic.uff.br)/[UFF](http://www.uff.br)
+# Programa&ccedil;&atilde;o Orientada a Objetos, 2026.2, [IC](http://www.ic.uff.br)/[UFF](http://www.uff.br)
 
 ## Links
-Turma 2026.2: [Google Sala de Aula](https://classroom.google.com/c/ODcxMjI0Mzg3MDUy), [Frequência](https://docs.google.com/spreadsheets/d/e/2PACX-1vQIc1uBMrMmWVKaXgdVpv9ctmfIUqRYKVat4_jJ1Z0HpOWE4vzVrM-Lo7bQQBIR0noNkvfuSL_EEhN6/pubhtml), [Professor](https://www.ic.uff.br/blog/pessoas/luiz-andre-portes-paes-leme/).
+Turma S1 2026.2: [Google Sala de Aula](https://classroom.google.com/c/ODcxMjI0Mzg3MDUy), [Frequência](https://docs.google.com/spreadsheets/d/e/2PACX-1vQIc1uBMrMmWVKaXgdVpv9ctmfIUqRYKVat4_jJ1Z0HpOWE4vzVrM-Lo7bQQBIR0noNkvfuSL_EEhN6/pubhtml), [Professor](https://www.ic.uff.br/blog/pessoas/luiz-andre-portes-paes-leme/).
 
 ## 1. Introdução a Java
 
