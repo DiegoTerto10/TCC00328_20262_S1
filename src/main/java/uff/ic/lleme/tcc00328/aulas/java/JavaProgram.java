@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.aulas.trabalhos.luizandre;
+package uff.ic.lleme.tcc00328.aulas.java;
 
 public class JavaProgram {
 
