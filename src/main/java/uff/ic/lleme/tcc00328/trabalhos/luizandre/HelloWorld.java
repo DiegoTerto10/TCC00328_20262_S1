@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.aulas.trabalhos.luizandre;
+package uff.ic.lleme.tcc00328.trabalhos.luizandre;
 
 public class HelloWorld {
 
