@@ -1,7 +1,5 @@
 package uff.ic.lleme.tcc00328.trabalhos.aluno2;
 
-import uff.ic.lleme.tcc00328.trabalhos.luizandre.*;
-
 public class HelloWorld {
 
     // program startup function
