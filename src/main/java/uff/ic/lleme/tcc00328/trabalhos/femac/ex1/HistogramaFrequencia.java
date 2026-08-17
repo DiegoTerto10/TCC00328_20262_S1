@@ -10,12 +10,12 @@ public class HistogramaFrequencia {
     public static void main(String[] args) {
         int tamanhoVetor = 1000;
         int[] vetor = new int[tamanhoVetor];
-        int[] contagem = new int[100]; // Índices de 0 a 99
+        int[] contagem = new int[100]; 
         Random random = new Random();
 
         
         for (int i = 0; i < tamanhoVetor; i++) {
-            vetor[i] = random.nextInt(100); // Gera número entre 0 e 99
+            vetor[i] = random.nextInt(100); 
             contagem[vetor[i]]++;
         }
 
