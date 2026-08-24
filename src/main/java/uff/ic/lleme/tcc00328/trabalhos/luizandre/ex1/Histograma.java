@@ -7,7 +7,7 @@ public class Histograma {
 
     public static int N = 100;
     public static int[] vet = new int[1000];
-    double[] freq = new double[N];
+    public static double[] freq = new double[N];
     public static Random rnd = new Random();
 
     public static void main(String[] args) {
