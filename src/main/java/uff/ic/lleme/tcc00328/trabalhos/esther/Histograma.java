@@ -15,6 +15,7 @@ public class Histograma {
     public static int N = 100;
     public static int[] vetor = new int[1000];
     public static int[] contador = new int[N];  
+    public static double[] freqRelativa = new double[N];
    
     public static void main(String args[]){
         Random random = new Random();
@@ -22,15 +23,17 @@ public class Histograma {
         for (int i=0; i<vetor.length; i++){
             vetor[i]= random.nextInt(100);
             contador[vetor[i]]++; 
-            System.out.println(Arrays.toString(vetor)); //converte o endereço para  array
+            
             //System.out.println("Frequência absoluta do " + vetor[i] + "é:" +contador[i]);
         }
-     
+        System.out.println(Arrays.toString(vetor)); //converte o endereço para  array
+        
        for (int i = 0; i < contador.length; i++) {
-            double frequenciaRelativa = ((double) contador[i] / vetor.length) * 100.0;
-            System.out.println("Numero " + i + " -> Frequencia: " + contador[i] + " (" + frequenciaRelativa + "%)");
-        }
-                
+            // 2. ARMAZENAR O CÁLCULO NO NOVO VETOR
+            freqRelativa[i] = ((double) contador[i] / vetor.length) * 100.0;
+        }    
+        // 3. IMPRIMIR O VETOR DE FREQUÊNCIAS RELATIVAS (com casas decimais)
+        System.out.println(Arrays.toString(freqRelativa));
     
             
     }
