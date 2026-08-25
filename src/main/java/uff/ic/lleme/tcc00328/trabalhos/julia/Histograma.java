@@ -1,27 +1,42 @@
-package uff.ic.lleme.tcc00328.trabalhos.julia;
+package uff.ic.lleme.tcc00328.trabalhos.luizandre.ex1;
+
+import java.util.Arrays;
+import java.util.Random;
 
 public class Histograma {
 
+    public static final int N = 1000;
+    public static final int MAX = 99;
+    public static Random rnd = new Random();
+
+    public static int[] numeros = new int[N];
+    public static double[] freq = new double[N];
+
     public static void main(String[] args) {
-        
-        int[] vet = new int[200];
-        int[] histograma = new int[100];
 
-        // 1. Preenche o vetor com numeros de 0 a 99
-        for (int i = 0; i < 200; i++) {
-            vet[i] = (int) (Math.random() * 100);
-        }
+        numeros = geraNumeros(N, MAX);
+        System.out.println(Arrays.toString(numeros));
 
-        // 2. Conta quantas vezes cada numero apareceu
-        for (int i = 0; i < 200; i++) {
-            int pos = vet[i];
-            histograma[pos] = histograma[pos] + 1;
-        }
-
-        // 3. Imprime a quantidade e o percentual na tela
-        for (int i = 0; i < 100; i++) {
-            double percentual = (histograma[i] / 200.0) * 100;
-            System.out.println("Numero " + i + ": " + histograma[i] + " vezes (" + percentual + "%)");
-        }
+        freq = calculaHistograma(numeros);
+        System.out.println(Arrays.toString(freq));
     }
+
+    public static int[] geraNumeros(int N, int max) {
+        int[] numeros = new int[N];
+        for (int i = 0; i < numeros.length; i++)
+            numeros[i] = rnd.nextInt(0, max + 1);
+        return numeros;
+    }
+
+    public static double[] calculaHistograma(int[] in) {
+        int[] contador = new int[in.length];
+        double[] freq = new double[in.length];
+
+        for (int i = 0; i < numeros.length; i++)
+            contador[in[i]]++;
+        for (int i = 0; i < numeros.length; i++)
+            freq[i] = contador[i] / (double) in.length * 100;
+        return freq;
+    }
+
 }
