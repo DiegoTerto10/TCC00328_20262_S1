@@ -12,34 +12,55 @@ import java.util.Random;
 import java.util.Arrays;
 
 //importando bibliotecas para trabalhar com arquivos
-/*import java.io.BufferedWriter;
+import java.io.BufferedWriter;
 import java.io.FileWriter;
-import java.io.IOException;*/
-        
+import java.io.IOException;
+
 public class ArquivoHistograma {    
     
-    public static int N = 100;
-    public static int[] vetor = new int[1000];
-    public static int[] contador = new int[N];  
-    public static double[] freqRelativa = new double[N];
-    
-   
-    public static void main(String args[]){
+    public static void main(String args[]) {
+        // variáveis para dentro do main 
+        int N = 100;
+        int[] vetor = new int[1000];
+        int[] contador = new int[N];  
+        double[] freqRelativa = new double[N];
+        
         Random random = new Random();
-       
-        for (int i=0; i<vetor.length; i++){
-            vetor[i]= random.nextInt(100);
+
+        // 1. Gera os números e conta as frequências
+        for (int i = 0; i < vetor.length; i++) {
+            vetor[i] = random.nextInt(100);
             contador[vetor[i]]++; 
         }
-        System.out.println(Arrays.toString(vetor)); 
         
-       for (int i = 0; i < contador.length; i++) {
+        System.out.println("Vetor gerado: " + Arrays.toString(vetor)); 
+        
+        // 2. Calcula a frequência relativa
+        for (int i = 0; i < contador.length; i++) {
             freqRelativa[i] = ((double) contador[i] / vetor.length) * 100.0;
         }    
-        System.out.println(Arrays.toString(freqRelativa));
-    
+        
+        // 3. Gravação do arquivo usando Try-with-resources (fecha automático)
+        String caminhoArquivo = "arquivoHistograma.txt";
+        
+        try (BufferedWriter escritor = new BufferedWriter(new FileWriter(caminhoArquivo))) {
+            
+            escritor.write("=== HISTOGRAMA DE FREQUÊNCIAS ===\n\n");
+            
+            // Laço para escrever cada número e sua respectiva porcentagem no TXT
+            for (int i = 0; i < freqRelativa.length; i++) {
+                // Formata para mostrar o texto bonitinho (ex: "Número 15: 1.20%")
+                String linha = String.format("Número %02d: %.2f%%\n", i, freqRelativa[i]);
+                escritor.write(linha);
+            }
+
+            System.out.println("\nArquivo TXT gerado com sucesso!");
+
+        } catch (Exception erro) {
+            System.out.println("Houve um problema para gravar o arquivo.");
+            erro.printStackTrace();
+        }
             
     }
-    }
-    
+}
  
