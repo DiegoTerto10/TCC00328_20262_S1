@@ -12,10 +12,5 @@
         <maven.compiler.target>26</maven.compiler.target>
     </properties>
     <dependencies>
-        <dependency>
-            <groupId>org.postgresql</groupId>
-            <artifactId>postgresql</artifactId>
-            <version>42.7.13</version>
-        </dependency>
     </dependencies>
 </project>
