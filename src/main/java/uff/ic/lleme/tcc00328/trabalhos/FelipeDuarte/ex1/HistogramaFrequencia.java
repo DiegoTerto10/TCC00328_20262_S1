@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.trabalhos.femac.ex1;
+package uff.ic.lleme.tcc00328.trabalhos.FelipeDuarte.ex1;
 
 import java.io.BufferedWriter;
 import java.io.FileWriter;
