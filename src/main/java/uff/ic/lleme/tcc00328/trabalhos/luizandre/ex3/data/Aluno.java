@@ -1,8 +1,9 @@
-package uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.OO;
+package uff.ic.lleme.tcc00328.trabalhos.lapaesleme.ex3.data;
 
 public class Aluno {
-    private final String matricula;
-    private final String nome;
+
+    private String matricula;
+    private String nome;
     private String email;
 
     public Aluno(String matricula, String nome, String email) {

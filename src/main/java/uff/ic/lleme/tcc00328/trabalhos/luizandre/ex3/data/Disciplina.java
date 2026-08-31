@@ -1,7 +1,7 @@
-package uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.OO;
-
+package uff.ic.lleme.tcc00328.trabalhos.lapaesleme.ex3.data;
 
 public class Disciplina {
+
     private final String codigo;
     private final String nome;
     private final int cargaHoraria;

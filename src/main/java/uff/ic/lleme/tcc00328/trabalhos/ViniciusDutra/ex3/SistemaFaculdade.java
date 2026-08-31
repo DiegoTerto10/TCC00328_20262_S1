@@ -1,13 +1,17 @@
-package uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.OO;
-
+package uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.ex3;
 
 import java.util.ArrayList;
 import java.util.List;
+import uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.ex3.data.Aluno;
+import uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.ex3.data.Disciplina;
+import uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.ex3.data.Inscricao;
+import uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.ex3.data.Turma;
 
 public class SistemaFaculdade {
+
     private final List<Aluno> alunos;
     private final List<Disciplina> disciplinas;
-    private final List<Matricula> matriculas;
+    private final List<Inscricao> matriculas;
 
     public SistemaFaculdade() {
         this.alunos = new ArrayList<>();
@@ -23,8 +27,9 @@ public class SistemaFaculdade {
         disciplinas.add(disciplina);
     }
 
-    public Matricula realizarMatricula(Aluno aluno, Disciplina disciplina, String semestre) {
-        Matricula novaMatricula = new Matricula(aluno, disciplina, semestre);
+    public Inscricao realizarMatricula(Aluno aluno, Disciplina disciplina, String semestre) {
+        Turma turma = new Turma();
+        Inscricao novaMatricula = new Inscricao(aluno, turma);
         matriculas.add(novaMatricula);
         return novaMatricula;
     }

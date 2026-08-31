@@ -1,7 +1,7 @@
-package uff.ic.lleme.tcc00328.trabalhos.ViniciusDutra.OO;
-
+package uff.ic.lleme.tcc00328.trabalhos.lapaesleme.ex3.data;
 
 public class Professor {
+
     private final String idProfessor;
     private final String nome;
     private final String departamento;
