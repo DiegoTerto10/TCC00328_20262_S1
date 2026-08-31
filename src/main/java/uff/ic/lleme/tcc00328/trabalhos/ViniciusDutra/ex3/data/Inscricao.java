@@ -18,7 +18,6 @@ public class Inscricao {
     public Inscricao(Aluno aluno, Turma turma) {
         this.aluno = aluno;
         this.turma = turma;
-
     }
 
     public double getNf() {
