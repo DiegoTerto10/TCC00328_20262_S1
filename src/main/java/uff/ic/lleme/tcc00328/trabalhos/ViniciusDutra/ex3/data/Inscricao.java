@@ -29,20 +29,4 @@ public class Inscricao {
         return aluno;
     }
 
-    public Disciplina getDisciplina() {
-        return Turma.disciplina;
-    }
-
-    public String getSemestre() {
-        return Turma.semestre;
-    }
-
-    public double getNota() {
-        return nota;
-    }
-
-    public void lancarNota(double nota) {
-        this.nota = nota;
-    }
-
 }
