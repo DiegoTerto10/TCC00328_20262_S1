@@ -2,7 +2,7 @@ package teste;
 
 /**
  * Projeto: teste
- * Descrição: Exemplo de Hello World em Java
+ * Descrição: Exemplo d Hello World em Java
  */
 public class Teste {
 
