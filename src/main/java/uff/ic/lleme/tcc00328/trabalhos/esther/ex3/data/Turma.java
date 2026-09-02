@@ -1,4 +1,5 @@
-package uff.ic.lleme.tcc00328.trabalhos.lapaesleme.ex3.data;
+
+package uff.ic.lleme.tcc00328.trabalhos.esther.ex3.data;
 
 public class Turma {
 
@@ -9,3 +10,4 @@ public class Turma {
     public String horario;
 
 }
+

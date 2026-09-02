@@ -1,4 +1,4 @@
-package uff.ic.lleme.tcc00328.trabalhos.lapaesleme.ex3.data;
+package uff.ic.lleme.tcc00328.trabalhos.douglas.ex3.data;
 
 public class Aluno {
 
@@ -26,5 +26,19 @@ public class Aluno {
 
     public void setEmail(String email) {
         this.email = email;
+    }
+
+    /**
+     * @param matricula the matricula to set
+     */
+    public void setMatricula(String matricula) {
+        this.matricula = matricula;
+    }
+
+    /**
+     * @param nome the nome to set
+     */
+    public void setNome(String nome) {
+        this.nome = nome;
     }
 }

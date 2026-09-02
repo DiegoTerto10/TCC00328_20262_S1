@@ -5,8 +5,7 @@
 package uff.ic.lleme.tcc00328.trabalhos.esther.ex3;
 
 /**
- *
- * @author User
+O objetivo é criar um sistema de matricula, ajuste e cancelamento em matérias
  */
 public class SistemaFaculdade {
     
